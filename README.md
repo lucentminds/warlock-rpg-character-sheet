@@ -1,2 +1,2 @@
-# warlock--character-sheet
+# warlock-rpg-character-sheet
 Warlock character sheet webpage
