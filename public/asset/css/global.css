@@ -1,0 +1,17 @@
+body
+{
+   background-color: #cccccc;
+}
+
+.character-sheet
+{
+   width: 800px;
+   margin: 0 auto;
+   background-color: #ffffff;
+   padding: 20px;
+}
+
+.form-col
+{
+   display: flex;
+}
