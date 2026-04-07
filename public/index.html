@@ -1,32 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="UTF-8"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <title>Warlock RPG Character Sheet</title>
-      <link rel="stylesheet" href="/vendor/bootstrap-5.3.8-dist/css/bootstrap.min.css"/>
-      <link rel="stylesheet" href="/asset/css/global.css"/>
-   </head>
-   <body>
-
-      <div class="character-sheet container text-center">
-         <div class="form-row align-items-start">
-            <div class="col">
-               <div class="form-group row">
-                  <label class="col-form-label col-form-label-sm col-sm-2" for="name">
-                     Name
-                  </label>
-                  <input class="form-control form-control-sm" type="text" autofocus="autofocus"
-                     placeholder="Name of your character"/>
-               </div>
-            </div>
-            <div class="col">
-               <div class="form-group"></div>
-            </div>
-         </div>
-      </div>
-
-      <script src="/vendor/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
-      <script src="/asset/js/global.js"></script>
-   </body>
+<html lang="">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico"/>
+    <link rel="stylesheet" href="/asset/css/global.css"/>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
 </html>
